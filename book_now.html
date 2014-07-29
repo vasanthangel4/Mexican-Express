@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Mexicon Express" />
+<meta name="keywords" content="MEXICAN EXPRESS,Fresh Authentic,Mexicon Food, 123 City road, LONDON,manager@mexican-express.co.uk" />
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Mexicon Express</title>
+
+<!--STYLESHEET-->
+<link href="css/mexicons.css" rel="stylesheet" type="text/css" />
+<link href="css/glDatePicker.default.css" rel="stylesheet" type="text/css" />
+<!--JS-->
+ <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+ <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div class="maincommon">
+<header>
+<a href="index.html" class="logo" title="Mexicon Express" >
+<img src="images/Mexicon_express_logo.png"  title="Mexicon Express logo" />
+</a>
+<img src="images/Mexicon_express.png" title="Mexicon Express title" />
+<hr />
+<nav>
+<ul>
+<li><a href="index.html" title="HOME">HOME</a></li>
+<li><a href="about.html" title="ABOUT US">ABOUT US</a></li>
+<li><a href="menue.html" title="MENU">MENU</a></li>
+<li><a href="special_offers.html" title="SPECIAL OFFERS">SPECIAL OFFERS</a></li>
+<li><a href="contact.html" title="CONTACT US">CONTACT US</a></li>
+<li><a href="online_takeway.html" title="ONLINE TAKEWAY">ONLINE TAKEWAY</a></li>
+<li><a href="book_now.html" title="BOOK NOW">BOOK NOW</a></li>
+</ul>
+</nav>
+</header>
+<div class="maincommon">
+<section class="maincontent">
+
+<article class="book_now">
+<h5>DO NOT LOOSE THE OPPORTUNITY TO TASTE OUR FOOD
+<br/>
+JUST BOOK A TABLE ONLINE AND ENJOY!</h5>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript" charset="UTF-8"></script>
+<div class="maincols">
+<div class="divclcom">
+<a href="#" class="maincols2 valutxt1">PERSON</a>
+<select id="persion">
+<option>Persion</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.valutxt1').html($('#persion option:selected').text());
+            $('#persion').on('change', function () {
+                $('.valutxt1').html($('#persion option:selected').text());
+            });
+
+
+            $('.valutxt2').html($('#dinner option:selected').text());
+            $('#dinner').on('change', function () {
+                $('.valutxt2').html($('#dinner option:selected').text());
+            });
+
+
+            $('.valutxt3').html($('#dinner option:selected').text());
+            $('#dinner').on('change', function () {
+                $('.valutxt3').html($('#dinner option:selected').text());
+            });
+           
+        });
+    </script>
+<div class="divclcom">
+<a  href="#" class="valutxt2">Dinner</a>
+<select id="dinner">
+<option>Breakfast</option>
+<option>Lunch</option>
+<option>Dinner</option>
+</select>
+</div>
+</div>
+<div class="maincols">
+<!--<a  href="#">SPECIAL DATES: BIRTHDAY PARTY</a>--> 
+<a  href="#">CHECK AVAILABILITY</a>
+</div>
+<div class="maintexss">
+<input type="text" id="mydate" gldp-id="mydate" />
+    <div gldp-el="mydate"
+         style="width:400px; height:300px; position:static;margin-left:291px; display:block !important">
+    </div>
+</div>
+
+
+
+<hr class="mexiconhr" />
+
+<ul class="mexicon_menu">
+<li><a href="franchise.html">FRANCHISE</a></li>
+<li>
+<a href="loyalty_card.html">MEXICAN <br/>
+EXPRESS <br/>  LOYALTY    CARD</a></li>
+<li>
+<a href="kids_menu.html">KIDS  <br/>  
+MENU </a>      
+</li>
+<li>
+<a href="feedback.html">reviews <br/></a>
+</li>
+</ul>
+
+
+</article>
+
+</section>
+</div>
+</div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/glDatePicker.min.js"></script>
+
+    <script type="text/javascript">
+	$('.gldp-default').show();
+        $(document).ready(function() {
+       
+            $('input').glDatePicker();
+			$('.gldp-default').show();
+        });
+    </script>
+
+</body>
+</html>

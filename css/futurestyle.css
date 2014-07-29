@@ -1,0 +1,145 @@
+﻿
+#featureSlider {
+    clear: both;
+    float: left;
+    height: 460px;
+    margin-left:0px;
+    position: relative;
+    width:710px;
+	
+}
+#ie #featureSlider {
+    width: 710px;
+}
+#homeBannerOne {
+    cursor: pointer;
+}
+#homeBannerTwo {
+    cursor: pointer;
+}
+#homeBannerThree {
+    cursor: pointer;
+}
+#homeBannerFour {
+    cursor: pointer;
+}
+#homeBannerFive {
+	cursor: pointer;
+	left: 109px;
+}
+
+#featureSlider #mainIMG li {
+    display: block;
+   height: 426px;
+    left: 0;
+    list-style: none outside none !important;
+    position: absolute;
+    top: 0;
+    width: 970px;
+}
+#featureSlider #mainIMG, .lof-main-outer {
+    float: left;
+    height: 426px;
+    list-style: none outside none;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: relative;
+    width: 970px;
+    top: 0px;
+    left: 0px;
+}
+.classhiegt
+{
+	  height: 705px !important;
+}
+#featureSlider #thumbIMG, .lof-navigator-outer {
+    float: left;
+    list-style: none outside none;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    top: 0px;
+    right: 10px;
+	cursor: pointer;
+    display: block;
+    height: 19px;
+    list-style: none outside none !important;
+    margin-bottom: 0px;
+    width: 19px;
+}
+#featureSlider #thumbIMG li {
+    cursor: pointer;
+    display: block;
+    height: 19px;
+    list-style: none outside none !important;
+    margin-bottom: 0px;
+    width: 19px;
+	background-image:url(../images/icon.png) !important;
+	background-repeat:no-repeat !important;
+  
+}
+
+
+#featureSlider #thumbIMG li.active  {
+    cursor: pointer;
+    display: block;
+    height: 19px;
+    list-style: none outside none !important;
+    margin-bottom: 0px;
+    width: 19px;
+	background-image:url(../images/icon-active.png) !important;
+	background-repeat:no-repeat !important;
+}
+#featureSlider #thumbIMG.noimgh li,#featureSlider #thumbIMG.noimgh li.active
+{
+	background-image:none !important;
+}
+
+
+
+
+#featureSlider #thumbIMG .thumb1 {
+    background: url("/img/banner/1000-mins-passive.jpg") no-repeat scroll left top transparent;height:150px;
+}
+#featureSlider #thumbIMG .thumb2 {
+    background: url("/img/banner/dialler-passive.jpg") no-repeat scroll left top transparent;height:150px;
+}
+
+#featureSlider #thumbIMG .thumb1.active {
+    background: url("/img/banner/1000-mins-active.jpg") no-repeat scroll left bottom transparent;height:150px;
+}
+#featureSlider #thumbIMG .thumb2.active {
+    background: url("/img/banner/dialler-active.jpg") no-repeat scroll left bottom transparent;height:150px;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+.ui-tabs-selected {
+    background-position: left bottom !important;
+}
+/**/
+.lof-main-outer .show {display:block !important;}
+.lof-main-outer .hide {display:none !important;}
+/* content */
+.top {}
+.mid {
+	background:url('../../img/common/bgMid.png') repeat-y left top;
+	display:block;
+	min-height:200px;
+	}
+.btm {}
+
+.lof-navigator.chanwidtgh
+  {
+  right: -65px !important;
+  top: -627px !important;;
+  float:right  !important;
+ }
+ 
+ .widthhes
+ {
+	 width:350px !important;
+	 height:674px !important;
+ }

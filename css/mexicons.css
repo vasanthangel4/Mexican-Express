@@ -1,0 +1,732 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	background-image:url(../images/bg.jpg);
+	margin:0px;
+	padding:0px;
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+
+.maincommon
+{
+	width:1003px;
+	margin:auto;
+	
+}
+
+.maincommon header
+{
+	width:1003px;
+	float:left;
+	display:inline;
+}
+.maincommon header a
+{
+ float:left;
+ display:inline;
+ width:181px;
+}
+
+.maincommon header img
+{
+		float:right;
+	display:inline;
+	max-width:100%;
+	max-height:100%;
+}
+
+.maincommon hr
+{
+	
+	float:left;
+	display:inline;
+	border:0px;
+	border-top:1px solid #5e2c0f;
+	width:1003px;
+	margin:5px 0px;
+}
+.maincommon nav ul
+{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	width:1003px;
+	float:left;
+	display:inline;
+	margin:20px 0 20px;
+
+}
+.maincommon nav ul   li
+{
+	float:left;
+	display:inline;
+}
+.maincommon nav ul   li a
+{
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
+    float:left;
+	display:inline;
+	text-align:center;
+	width:142px;
+}
+
+.maincontent
+{
+	background-image:url(../images/bg-large.png);
+	width:1003px;
+	height:1008px;
+	float:left;
+	display:inline;
+}
+.maincontent-kids
+{
+	background-image:url(../images/bg-large-kids.png);
+}
+
+
+
+.maincontent article
+{
+width:970px;
+margin:auto;
+text-align:center;
+}
+
+.maincontent article p
+{
+    display: inline;
+    float: left;
+    font-size: 38px;
+    line-height: 63px;
+    margin: 103px 0 30px;
+    text-align: center;
+    width: 970px;
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	
+}
+.maincontent article.mexin_about p
+{
+    display: inline;
+    float: left;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 103px 0 30px;
+    text-align: center;
+    width: 970px;
+	
+}
+
+.maincontent article.mexin_about p
+{
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	 font-size:14px;
+	 
+}
+
+.maincontent article.mexin_about p.sec_mexicon
+{
+	 margin: 20px 0 30px;
+	 font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	 font-size:14px;
+}
+.maincontent article.mexin_menu
+{
+	margin-top:92px;	
+}
+
+.maincontent article.sp_offers
+{
+    color: #55130C;
+    font-family: Stencil;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 27px;
+    margin-top: 163px;
+}
+
+.maincontent article.sp_takeway
+{
+    color: #55130C;
+    font-family: Stencil;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 27px;
+    margin-top: 102px;
+}
+.maincontent .sp_takeway section
+{
+	width:420px;
+	float:left;
+	display:inline;
+}
+.maincontent .sp_takeway section img
+{
+	text-align:left;
+}
+.imgleft
+{
+	margin-left:146px;
+    float:left;
+	display:inline;
+}
+
+.maincontent .sp_takeway section p
+{
+     font-family: Stencil;
+    display: inline;
+    float: left;
+    font-size: 29px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 65px;
+    width: 468px;
+}
+.maincontent .book_now  h5
+{
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#000;
+    display: inline;
+    float: left;
+	width:970px;
+    margin:auto;
+	line-height: 24px;
+    margin:104px auto auto auto;
+}
+
+.maincontent .book_now 
+{
+	width:970px;
+    margin:auto;
+    text-align:center;
+}
+
+
+.maincontent .sp_takeway section p.imgsevel,.imgsevel
+{
+	font-size: 18px;
+    line-height: 20px;
+    display: inline;
+    float: left;
+	margin:0px 0px 0px 20px;
+}
+
+
+.maincontent article.sp_takeway section
+{
+	width:397px;
+	float:left;
+	display:inline;
+}
+
+.maincontent article.contact
+{
+ 
+margin:100px 0px 0px 0px;
+}
+.maincontent article.sp_offers h3
+{
+	
+	font-family:Stencil;
+	color:#55130c;
+	font-size:36px;
+	font-weight:normal;
+	line-height:20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.maincontent article.contact h3
+{
+	
+	font-family:Stencil;
+	color:#55130c;
+	font-size:20px;
+	font-weight:normal;
+	line-height:20px;
+	margin: 0px;
+	padding: 0px;
+}
+.maincontent article.contact h2
+{
+	
+	font-family:Stencil;
+	color:#55130c;
+	font-size:28px;
+	font-weight:normal;
+	line-height:20px;
+	margin: 22px 0px 4px 0px;
+	padding: 0px;
+}
+.maincontent article.contact h4
+{
+	
+	font-family:Stencil;
+	color:#55130c;
+	font-size:20px;
+	font-weight:normal;
+	line-height:20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.maincontent article.contact a
+{
+	color:#55130c;
+	font-size:18px;
+	font-weight:normal;
+	font-family:Myriad Pro;
+	line-height:20px;
+}
+
+.maincommon hr.mexiconhr
+{
+  margin: 32px 0 0 102px;
+    width: 726px;
+}
+.maincommon hr.mexhr2
+{
+  margin: 0px 0 0 102px;
+    width: 726px;
+}
+
+.maincommon  ul.mexicon_menu
+{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	width:943px;
+	float:left;
+	display:inline;
+	margin:5px 0px 20px 60px;
+
+
+}
+
+
+.maincommon  ul.mexicon_menu   li
+{
+	float:left;
+	display:inline;
+	background-image:url(../images/menu.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	width:200px;
+	height:85px;
+	margin:4px 0px 0px 0px; 
+}
+
+.maincommon  ul.mexicon_menu   li:nth-child(4)
+{
+	background-image:none;
+	margin-top:10px;
+}
+
+.maincommon  ul.mexicon_menu   li a
+{
+   color: #5E2C0F;
+    display: inline;
+    float: left;
+    font-family: Stencil;
+    font-size: 20px;
+	line-height: 20px;
+    margin: 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+	outline:none;
+}
+.maincommon  ul.mexicon_menu   li:nth-child(1) a
+{
+	margin-top:40px;
+	
+}
+
+.maincommon .mapsorj
+{
+	overflow:hidden;
+	height:350px;
+	width:600px;
+	border:8px solid #64140c;
+	margin:20px 0 0 189px
+}
+
+#gmap_canvas
+{
+	height:350px;
+	width:600px;
+}
+.imgsevel2
+{
+	display: inline;
+    float: left;
+    font-size: 12px  !important;
+    line-height: 20px  !important;
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    margin: 5px 0 0 44px !important;
+	padding:0px;
+	text-align:left !important;
+}
+
+.maincols
+{
+	clear: both;
+    margin: 10px 0 0 280px;
+    width: 615px;
+}
+
+.maincols a
+{
+    background-color: #761D14;
+    background-image: url("../images/arrow.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: Stencil;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 26px 0 0 10px;
+    padding: 4px 34px;
+    text-align:left;
+	text-decoration:none;
+}
+
+.maincols2
+{
+	margin:0px 0px 0px 40px;
+}
+
+.divclcom
+{
+    float:left;
+    display:inline;
+    width:230px;
+}
+
+.divclcom .valutxt1,.divclcom .valutxt2
+{
+ width:70px;
+}
+
+.divclcom .valutxt3
+{
+    width:100px;
+}
+.divclcom select
+{
+    float:left;
+    display:inline;
+    opacity:0;
+    clear:both;
+    margin:-34px 0px 0px 10px;
+    background-color:#761D14;
+    border:0px;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: Stencil;
+    font-size: 17px;
+    font-weight: normal;
+    width:140px;
+    height:34px;
+    line-height: 22px;
+}
+
+.divclcom option
+{
+    border:0px;
+}
+
+.textcommon
+{
+	color:#333;
+	display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 12px !important;
+	margin-top:0px !important;
+	line-height:18px !important;
+}
+
+.textcommon span
+{
+	  font-size: 16px !important;
+}
+
+.loyalty
+{
+	width:631px;
+	background-color:#543018;
+	margin:auto;
+	text-align:center;
+}
+
+.loyalty_head
+{
+	width:631px;
+	display: inline;
+    float: left;
+	background-color:#e9c571;
+	color:#341104;
+	margin:58px 0px 50px 0px;
+	line-height:20px;
+}
+
+.loyalty_head img
+{
+	display: inline;
+    float: left;
+	text-align:left !important;
+	margin:3px 0px 0px 10px;
+}
+.loyalty_head p
+{
+    display: inline;
+    float: left;
+    font-size: 22px !important;
+    font-weight: bold;
+    margin: 0 0 0 10px !important;
+    text-align: left !important;
+    width: 400px !important;
+	text-transform:uppercase;
+}
+
+.loyalty_head2
+{
+	background-color:#543018;
+	color:#e9c571;
+	font-size:12px;
+	margin:4px 0px 0px 0px;
+	display: inline;
+    float: left;
+	width: 631px !important;
+	text-align: left !important;
+	
+}
+
+.loyalty_comm
+{
+	float:left;
+	display:inline;
+	width:609px;
+	margin-left:13px;
+}
+.loyalty_comm p
+{
+   color:#000 !important;
+   margin:4px 0px 10px 0px !important;
+   	float:left;
+	display:inline;
+}
+
+.loyalty_head2 p
+{   color:#e9c571;
+	font-size:14px  !important;
+	margin:10px 0px 0px 20px  !important;
+	width: 611px !important;
+	line-height:20px !important;
+	text-align: left !important;
+	text-transform:inherit;
+	font-weight:normal;
+}
+
+.loyaltydiv
+{
+	background-color:#fff;
+	width:100px;
+	display: inline;
+    float: left;
+	height:100px;
+	margin:10px 10px 10px 10px;
+	border-radius:6px;
+}
+
+.loyaltydiv.select_loyalty
+{
+	background-image:url(../images/selct_mexicon.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.comm_kidsm
+{
+	font-size:20px !important;
+	font-weight:bold;
+	line-height:27px !important;
+	margin:123px 0 40px !important;
+}
+
+.comm_kidsm span
+{
+	font-size:35px;    
+}
+
+.kids_border
+{
+	width:631px;
+	margin:auto;
+	clear:both;
+	
+}
+.kids_border .comm_kidstxt
+{
+	width:631px;
+	float:left;
+	display:inline;
+	text-align:letf;
+	border:8px solid #2c0000;
+	margin-top:30px;
+	
+}
+.maincontent .kids_border h4
+{
+	width:400px;
+	float:left;
+	display:inline;
+	clear:both;
+	margin:15px 0px 0px 15px;
+	text-align:left !important;
+	font-size:28px;
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	color:#2c0000;
+	line-height:20px;
+}
+
+.maincontent .kids_border p
+{
+	width:450px  !important;
+	float:left;
+	display:inline;
+	clear:both;
+	font-size:20px  !important;
+	margin:6px 0px 10px 15px  !important;
+	text-align:left !important;
+}
+
+.kidstxt2
+{
+		width:450px  !important;
+	float:left;
+	display:inline;
+}
+.kidstxt21
+{
+	width:180px  !important;
+	float:left;
+	display:inline;
+	
+}
+.maincontent .kids_border .kidstxt21 p
+{
+	width:150px  !important;
+	float:left;
+	display:inline;
+	clear:both;
+	font-size:20px  !important;
+	margin:16px 20px 10px 0px  !important;
+	text-align:right !important;
+}
+
+.ttckin
+{
+	margin-top:25px  !important;
+	font-size:20px  !important;
+	font-weight:bold;
+	font-family:Myriad Pro;
+}
+.ttckin2
+{
+	margin-top:15px  !important;
+	font-size:25px  !important;
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	color:#2c0000;
+	width:600px;
+	clear:both;
+	margin:auto;
+}
+
+.comm_kidsm.comm_kidsm2
+{
+	font-weight:normal !important;
+}
+.comm_kidsm.comm_kidsm2 span
+{
+	font-weight:bold !important;
+}
+.ttckin.textna
+{
+	margin-top:0px  !important;
+}
+
+.maincommon hr.textna {
+    margin: 10px 0 0 102px;
+    width: 726px;
+}
+
+.lof-navigator img
+{
+	float:left;
+	display:inline;
+	width:19px;
+	height:19px;
+	
+}
+
+.commimgsize
+{
+	width:507px;
+	float:left;
+	display:inline;
+}
+#viewport {
+position: relative;
+
+}
+#viewport .smoke {
+position: absolute;
+width: 250px;
+height: 250px;
+background:url('http://demo.web3designs.com/smoke-texture.png') no-repeat;
+bottom: 150px;
+margin-left:0px
+}
+
+.maintexss
+{
+	float:left;
+	display:inline;
+	width:800px;
+	clear:both;
+	margin-top:40px;
+}
+
+.gldp-default .core
+{
+	font-size:12px !important;
+}
+
+#mydate
+{
+	visibility:hidden;
+}
+.gldp-default
+{
+	display:block !important;
+}
+.comlevss
+{
+font-family:tahoma  !important;
+font-size:16px !important;
+}
