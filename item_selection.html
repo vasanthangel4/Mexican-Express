@@ -91,7 +91,20 @@ $().ready(function(){
     });
 });
 
-    </script>
+</script>
+
+<script>
+var countChecked = function() {
+  var n = $( "input:checked" ).length;
+  $( "div" ).text( n + (n === 1 ? " is" : " are") + " checked!" );
+};
+countChecked();
+ 
+$( "input[type=checkbox]" ).on( "click", countChecked );
+</script>
+
+
+
 <!--<div class="divclcom">
 <a  href="#" class="valutxt2">Dinner</a>
 <select id="dinner">
@@ -124,17 +137,17 @@ Beef Chilli
 <br/><br/>
 £8.85
 
-<input class="calc" type="radio" name="radio1" value="8.85" />
+<input class="calc" type="checkbox" name="radio1" value="8.85" />
 
 
-<!--<input class="calc" type="radio" name="radio1" value="0" /><br />-->
+<!--<input class="calc" type="checkbox" name="radio1" value="0" /><br />-->
 </div>
 <div>
 
 Vegetarian
 <br/><br/>
 £9.5
-<input class="calc" type="radio" name="radio2" value="9.5" />
+<input class="calc" type="checkbox" name="radio2" value="9.5" />
 
 <!--<input class="calc" type="radio" name="radio2" value="0" /><br />-->
 </div>
@@ -143,9 +156,9 @@ Vegetarian
 Pork
 <br/><br/>
 £8.85
-<input class="calc" type="radio" name="radio3" value="8.85" />
+<input class="calc" type="checkbox" name="radio3" value="8.85" />
 
-<!--<input class="calc" type="radio" name="radio3" value="0" /><br />-->
+<!--<input class="calc" type="checkbox" name="radio3" value="0" /><br />-->
 
 
 </div>
