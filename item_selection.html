@@ -101,7 +101,7 @@ $().ready(function(){
 </select>
 </div>
 </div>-->
-
+ <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 
 <div class="maincols fegeferf">
 <br/><br/>
@@ -124,7 +124,7 @@ Beef Chilli
 <br/><br/>
 £8.85
 
-<input class="calc" type="radio" name="radio1" value="8.85" />
+<input class="calc" type="checkbox" name="radio1" value="8.85" />
 
 
 <!--<input class="calc" type="radio" name="radio1" value="0" /><br />-->
@@ -134,7 +134,7 @@ Beef Chilli
 Vegetarian
 <br/><br/>
 £9.5
-<input class="calc" type="radio" name="radio2" value="9.5" />
+<input class="calc" type="checkbox" name="radio2" value="9.5" />
 
 <!--<input class="calc" type="radio" name="radio2" value="0" /><br />-->
 </div>
@@ -143,7 +143,7 @@ Vegetarian
 Pork
 <br/><br/>
 £8.85
-<input class="calc" type="radio" name="radio3" value="8.85" />
+<input class="calc" type="checkbox" name="radio3" value="8.85" />
 
 <!--<input class="calc" type="radio" name="radio3" value="0" /><br />-->
 
@@ -160,9 +160,13 @@ Pork
 Total Amount for selected Items: <SPAN>£</SPAN><input type="text" name="sum" /></p>
 
 </div>
-<a href="#" class="butbasket">
+
+<a href="conformpage.htm" class="butbasket">
 Add item to Basket
 </a>
+<p>
+<br/>
+</p>
 <hr class="mexiconhr" />
 
 <ul class="mexicon_menu">
@@ -186,6 +190,16 @@ MENU </a>
 </div>
 </div>
 
+
+<script>
+var countChecked = function() {
+  var n = $( "input:checked" ).length;
+  $( "p.dqwddwd" ).html( "You have <SPAN>" + n + (n === 1 ? " " : "") + "</SPAN> selected items" );
+};
+countChecked();
+ 
+$( "input[type=checkbox]" ).on( "click", countChecked );
+</script>
 
 
 

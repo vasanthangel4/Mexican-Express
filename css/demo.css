@@ -1,0 +1,517 @@
+﻿
+.appbgcl label, .rates span, .flagimg1, .serv_rt div, .sflag a, .ukflg, .usflg, label, .lintxt, .bgmobile, .boldtxt, .result-list .action, .earnm .ultxte li span {
+color: #666666 !important;
+font-size: 16px !important;
+}
+.demo .numbers
+{
+    background-color: #ffd;
+    border: 1px solid #eec;
+    margin-bottom: 32px;
+    padding: 16px 20px;
+}
+.demo .numbers p
+{
+    margin-bottom: 0;
+}
+.demo .numbers .list
+{
+    margin-bottom: 0;
+}
+.example
+{
+    clear: both;
+    margin-bottom: 32px;
+}
+.cards
+{
+ float: left;
+    margin-left: 30px !important;
+    overflow: hidden;
+    width: 450px;
+}
+.cards li
+{
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    background-image: url("http://mundio-test.azurewebsites.net/wp-content/themes/new_chillitalk/img/card_logos.png");
+    background-position: 0 0;
+    float: left;
+    height: 32px;
+    margin-right: 3px;
+    text-indent: -9999px;
+    width: 50px;
+    list-style:none;
+}
+.cards li:last-child
+{
+    margin-right: 0;
+}
+.cards .visa_electron
+{
+    background-position: 350px 0;
+}
+.cards .mastercard
+{
+    background-position: 300px 0;
+}
+.cards .maestro
+{
+    background-position: 50px 0;
+}
+.cards .diners_club_international
+{
+    background-position: 149px 0;
+}
+.cards .solo
+{
+    background-position: 99px 0;
+}
+.cards .amex
+{
+    background-position: 49px 0;
+}
+
+
+.cards .visa.off
+{
+    background-position: 0px 32px;
+}
+.cards .visa_electron.off
+{
+    background-position: 350px 32px;
+}
+.cards .mastercard.off
+{
+    background-position: 300px 32px;
+}
+.cards .maestro.off
+{
+    background-position: 50px 32px;
+}
+
+.cards .diners_club_international.off
+{
+    background-position: 149px 32px;
+}
+.cards .solo.off
+{
+    background-position: 99px 32px;
+}
+.cards .amex.off
+{
+    background-position: 49px 32px;
+}
+
+
+.vertical
+{
+    overflow: hidden;
+}
+.vertical li
+{
+    float: left;
+    width: 140px;
+}
+.vertical li .or
+{
+    color: #aaa;
+    float: left;
+    font-size: 12px;
+    margin-left: -8px;
+    margin-top: 32px;
+}
+.vertical li:last-child
+{
+    float: right;
+    text-align: right;
+}
+.clearall.dfdfddrer {
+margin-left: 0 !important;
+}
+.leftmyaccount
+{
+display:none !important ;
+}
+.rightcunt h1, .rightcunt, .rightcunt hr, .rightcunt .bgmobile1 hr, .rightcunt .bgmobile1 form, .rightcunt,.hrel,.cssaver1
+{
+width:956px;
+}
+.error .redsde {
+display: none !important;
+}
+
+.tip-error,.tip-instruction {
+margin: 15px 0 0 3px !important;
+text-indent:0px !important;
+}
+.tip-error,.tip-instruction {
+margin-top: 3px !important;
+text-indent:0px !important;
+}
+
+#frm-signup.completed .icon-1 .status, [class^="icon-"], [class*=" icon-"] {
+margin-left: 15px;
+margin-top: 16px;
+text-indent:0px !important;
+}
+#frm-signup.completed .icon-1 .status, [class^="icon-"], [class*=" icon-"] {
+background-image: url("http://mundio-test.azurewebsites.net/wp-content/themes/new_chillitalk/img/true.png") !important;
+display: inline;
+float: left;
+height: 16px;
+margin-top: 4px;
+width: 16px;
+text-indent:0px !important;
+}
+#new_card .rightcunt,#vhsddswd .rightcunt
+{
+margin-top:20px  !important;
+float:left !important;
+display:inline !important;
+
+}
+.tssddx .appbgcl label, label
+{
+width:208px !important;
+text-align: right;
+}
+
+
+.topupse a {
+background-color: #6EA600;
+color: #FFFFFF !important;
+}.recaptchatable #recaptcha_response_field
+{
+margin:10px 0 0 !important;
+
+}
+.recaptcha_input_area
+{
+height: 57px !important;
+margin-right: auto !important;
+}
+.formRow {
+display: inline;
+float: left;
+margin: 10px 0 0 !important;
+width: 307px !important;
+}
+.bltxttop,#vasanth.js .helpText .icon, #vasanth.js .helpTextOff .icon, #vasanth.js .helpTextAlt .icon, #vasanth.js .helpTextAltOff .icon
+{
+color:#666 !important;
+}
+#vasanth.js .helpText .messageContainer, #vasanth.js .helpTextAlt .messageContainer {
+left: 23px;
+}
+@-moz-document url-prefix() {
+#vasanth.js .helpText .messageContainer, #vasanth.js .helpTextAlt .messageContainer {
+left: 13px;
+}
+}
+#vasanth.js .helpText .icon, #vasanth.js .helpTextOff .icon, #vasanth.js .helpTextAlt .icon, #vasanth.js .helpTextAltOff .icon
+{
+background-image: url("https://www.vectonemobile.fr/images/questionlogin.png") !important;
+margin:3px 0 0 6px !important;
+width:30px;
+}
+
+
+.errortxtpw,.errortxtp {
+background-image: url("images/false.png") !important;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #C74127;
+    float: none;
+    font-weight: normal !important;
+    margin: 12px 0 0 8px;
+    padding: 0 0 0 21px;
+
+} 
+.errortxtp 
+{
+  margin: 12px 0 0 60px;   
+}
+.leftcdss {
+    margin-left: 8px;
+    margin-right: 37px;
+}
+
+.rigtistxts
+ {
+position: absolute; 
+right: 237px; 
+margin-top: 60px;
+}
+.err_img{
+background-image: url("images/false.png") !important;
+    background-position: 1px 0;
+    background-repeat: no-repeat;
+float:left;
+margin-left: 18px !important;
+    margin-top: 9px !important;
+}
+.err{
+color: #C74127;
+    float: left;
+    font-weight: normal !important;
+margin: 9px 0 0 -59px;
+}
+#vasanthtext, #vasanthtext1 {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 2px solid #016BA5;
+    float: right !important;
+    font-size: 11px;
+    margin-left: 391px !important;
+    margin-top: 4px !important;
+    padding: 7px;
+    position: absolute;
+    text-indent: 1px;
+    width: 332px;
+    right: auto !important;
+}
+#dsahboard label {
+color: #5E2C0F  !important;
+font-family: arial !important;
+font-size: 15px !important;
+font-weight: bold;
+width:100% !important;
+}
+
+#dsahboard h3 {
+    color: #5E2C0F ;
+    font-family: arial !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.rightcunt .login, .rightcunt .signup.blue, .rightcunt .signup.green {
+    float: right !important;
+    margin: 18px -45px 3px 9px !important;
+padding: 0 !important;
+}
+.tssddx .appbgcl label, label {
+    text-align: left;
+    width: 208px !important;
+}
+.tdgsn {
+    margin-top: 13px;
+}
+.dtestdcom {
+  width:518px !important;
+}
+.tdgsn {
+    width: 683px;
+}
+.separate_input{
+ clear: both !important;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    text-indent: 0;
+    width: 878px;
+padding-bottom: 20px !important;
+}
+
+.leftcdss11 {
+    padding-right: 6px;
+text-indent: 0 !important;
+}
+
+.largbox {
+    width: 354px;
+}
+#new_card .ssdteb,#vhsddswd .ssdteb {
+    float: left !important;
+    margin-top: 0 !important;
+}
+.leftcom2{
+// font-size: 14px;
+// padding: 4px;
+// width: 219px !important;
+
+border-radius: 2px !important;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #73AB1E),color-stop(1, #649C16)) !important;
+background-image: -o-linear-gradient(bottom, #73AB1E 0%, #649C16 100%) !important;
+background-image: -moz-linear-gradient(bottom, #73AB1E 0%, #649C16 100%) !important;
+background-image: -webkit-linear-gradient(bottom, #73AB1E 0%, #649C16 100%) !important;
+background-image: -ms-linear-gradient(bottom, #73AB1E 0%, #649C16 100%) !important;
+background-image: linear-gradient(to bottom, #73AB1E 0px, #649C16 100%) !important;
+padding-right: 12px !important;
+}
+.leftcom3:hover{
+box-shadow: 1px 1px 3px #5E2C0F ;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #7EB629),color-stop(1, #649C16)) !important;
+background-image: -o-linear-gradient(bottom, #7EB629 0%, #649C16 100%) !important;
+background-image: -moz-linear-gradient(bottom, #7EB629 0%, #649C16 100%) !important;
+background-image: -webkit-linear-gradient(bottom, #7EB629 0%, #649C16 100%) !important;
+background-image: -ms-linear-gradient(bottom, #7EB629 0%, #649C16 100%) !important;
+background-image: linear-gradient(to bottom, #7EB629 0px, #649C16 100%) !important;
+color: #FFFFFF;
+}
+.smtxtbx, .emptyxt {
+ margin-right: 17px;
+    width: 114px;
+}
+.table-bordered th, .table-bordered td
+{
+border-top:0px;
+border-right:0px;
+border-left:0px;
+}
+.hrel
+{
+margin-top:-16px !important;
+}
+
+.myacc_small {
+    border-bottom: medium none;
+}
+.mytd {
+    border-bottom: none;
+}
+
+.myaccount_table div:nth-child(1) {
+    margin-left: -5px;
+    width: 156px;
+font-size: 100% !important;
+}
+tbody{
+border-bottom: 1px double #BABABA !important;
+}
+.table-bordered tr, .table-bordered td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: medium none !important;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 0 none;
+font-weight: 500 !important;
+}
+.table-bordered tr, .table-bordered th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: medium none !important;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 0 none;
+}
+a.dashmore:hover {
+    border-bottom: 1px dotted #444444 !important;
+    color: #444444 !important;
+    text-decoration: none;
+}
+a.dashmore {
+    border-bottom: 1px dotted #EF3800 !important;
+    color: #EF3800 !important;
+    text-decoration: none;
+float:right;
+text-indent:0px !important;
+}
+.mytd {
+font-weight: 500 !important;
+}
+
+#dsahboard h3 {
+color:#5E2C0F ;
+font-family: arial !important;
+font-size: 20px !important;
+font-weight: bold;
+}
+.hthres {
+color:#5E2C0F ;
+font-family: arial;
+font-size: 20px !important;
+font-weight: bold;
+padding-top: 10px !important;
+}
+.myaccount_table div {
+    font-size: 100% !important;
+}
+.table-bordered th, .table-bordered td, .table-bordered {
+    border: 0 none;
+    color: #4C4A4B;
+    font-size: 100% !important;
+    font-weight: bold;
+    text-indent: 0;
+}
+.myaccount_table div:nth-child(4) {
+    width: 150px;
+}
+.address_mail{
+float: inherit;
+    line-height: 21px;
+    margin-left: 412px !important;
+    margin-top: -100px !important;
+    text-indent: 0 !important;
+    width: 436px !important;
+}
+#amount {
+    width: 221px !important;
+}
+#first_name{
+width: 299px;
+}
+#postcode{
+width: 161px;
+}
+#logos.hover_mouse { cursor: pointer !important; }
+#cardnumber
+{
+width: 235px;
+}
+
+
+.js .helpText, .js .helpTextOff, .js .helpAltText, .js .helpTextAltOff {
+    display: inline-block;
+    margin-left: -44px !important;
+    position: absolute;
+}
+
+.tooltip {
+background-color: #FFFFFF;
+    border: 1px solid #858585;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px #8C8C8C;
+    color: #3A3A3A !important;
+    cursor: help;
+    display: none;
+    font-size: 14px !important;
+    max-width: 360px;
+    opacity: 1 !important;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+}
+.cvv_info{
+padding:10px !important;
+}
+.exist_confirm{
+clear: both;
+    padding-left: 47px;
+    width: 380px;
+}
+.cancel_hover:hover{
+color:#E93E3E;
+box-shadow:none !important;
+}
+.confirmation-modal {
+    border: medium none !important;
+    padding-bottom: 10px;
+    width: 509px;
+}
+  
+.modal.fade.in {
+    top: auto;
+}
+.modal-body{
+max-height:425px !important;
+}
