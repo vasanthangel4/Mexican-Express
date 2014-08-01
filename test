@@ -1,0 +1,26 @@
+Questions :
+1. Home folder of T24 - bnk.run
+2. According to overrides which is true? - overrides can be accepted or rejected
+3. According to local ref fields which is false? - local fields cannot be set as mandatory
+4. How to create teller user group with same previlages for all users? - create one record in user.sms.group and attached into user application
+5. Create account L, customer L sub menus under main menu 'enquiries' which one is true? - create only one helptext.menu with multi value of application field and attach into context.mainmenu
+6. For MENUS which one is true? - we can invoke menu from t24 command prompt
+7. Most of the applications have these fields
+options : audit fields, override, record status, all the above( I'm not sure of answer. I answered All the above might be answer is audit fields)
+8. What content type you set to attach a rotines in composite screens - utility
+9. According to PGM.file which one is false - PGM.FILE have field to display FIN,CUS,INT type
+10. Which one send client http request to t24 app server - browser web servlet
+11. All the subroutines must have entry in - pgm.file
+12. According to enquiries which one is false - fixed selection will execute after dynamic selection
+13. Which file having port number, ofs source - t24-ds.xml
+14. Customer address id xxxx is edited and commited. Which one true below? - record in INAU status, changes should be authorized.
+15. In ACCOUNT, ACC,TRG version currency value defaulted to USD. which one true below? user can change currency field when input record
+16. Which one is false below	
+options: 
+live record can be deleted -Answer
+live record can be reversed
+unauthorized record can be deleted
+reversed record can be deleted
+17. In command line when u give CUSTOMER L which one is true? - dynamic selection will not be displayed.
+18. T24 installation will be support multiple branches. So where will branch details will be stored - COMPANY
+19. In enquiries which one is true? - OPERATION field value should be match with fields in standard.selection.
